@@ -1,0 +1,36 @@
+
+body{
+    background: rgba(0, 0, 0, 0.5) url("./images/bodyBg.png") repeat;
+}
+
+.dropdown-item{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.container{
+    background: url("./images/containerBg.png") no-repeat;
+    background-size: cover;
+}
+
+.card{
+    margin: auto;
+}
+.gameCardImg{
+    overflow: hidden;
+}
+
+.card-img-top{
+    transition: scale 500ms ease-out 200ms;
+}
+.card-img-top:hover{
+    scale: 1.2;
+}
+
+footer{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
